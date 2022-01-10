@@ -7,30 +7,42 @@
     "start": "next start"
   },
   "dependencies": {
-    "@heroicons/react": "^1.0.5",
-    "@reduxjs/toolkit": "^1.6.2",
-    "@stripe/react-stripe-js": "^1.7.0",
-    "@stripe/stripe-js": "^1.22.0",
-    "@tailwindcss/line-clamp": "^0.2.0",
-    "axios": "^0.24.0",
-    "firebase": "^8.6.1",
-    "firebase-admin": "^9.12.0",
-    "micro": "^9.3.4",
-    "moment": "^2.29.1",
-    "next": "^12.0.4",
-    "next-auth": "^3.29.0",
-    "react": "17.0.1",
-    "react-currency-formatter": "^1.1.0",
-    "react-dom": "17.0.1",
-    "react-minimal-side-navigation": "^1.9.2",
-    "react-redux": "7.2.2",
-    "react-responsive-carousel": "^3.2.22",
-    "stripe": "^8.195.0"
+    "@heroicons/react": "*",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@stripe/react-stripe-js": "*",
+    "@stripe/stripe-js": "*",
+    "@tailwindcss/line-clamp": "^0.3.0",
+    "axios": "*",
+    "firebase": "^9.6.2",
+    "firebase-admin": "^10.0.1",
+    "micro": "*",
+    "moment": "*",
+    "next": "^12.0.7",
+    "next-auth": "^4.1.0",
+    "react": "^17.0.2",
+    "react-currency-formatter": "*",
+    "react-dom": "^17.0.2",
+    "react-minimal-side-navigation": "*",
+    "react-redux": "^7.2.6",
+    "react-responsive-carousel": "*",
+    "stripe": "*"
   },
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.15",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
     "tailwindcss": "^2.1.2"
-  }
+  },
+  "description": "Run commands",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-/issues"
+  },
+  "homepage": "https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-#readme"
 }
