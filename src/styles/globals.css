@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+	@apply cursor-pointer hover:border hover:border-white rounded-sm text-white font-semibold p-1;
+}
+.buttonn {
+	@apply bg-gradient-to-b from-yellow-200 to-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 active:from-yellow-500 	border rounded-sm  border-yellow-300 p-2 text-xs md:text-sm;
+}
