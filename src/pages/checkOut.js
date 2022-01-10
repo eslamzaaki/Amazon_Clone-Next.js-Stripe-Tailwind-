@@ -1,6 +1,6 @@
 import React from "react";
-import Headerr from "../pages/Headerr";
-import CheckOutItem from "./CheckOutItem";
+import Headerr from "../Headerr";
+import CheckOutItem from "../CheckOutItem";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { selectItems, selectTotal } from "../slices/basketSlice";

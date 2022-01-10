@@ -1,7 +1,7 @@
 import { useSession } from "next-auth/client";
 import React from "react";
-import Headerr from "./Headerr";
-import Order from "./Order";
+import Headerr from "../Headerr";
+import Order from "../Order";
 import { getSession } from "next-auth/client";
 import { db } from "../app/firebase";
 import moment from "moment";

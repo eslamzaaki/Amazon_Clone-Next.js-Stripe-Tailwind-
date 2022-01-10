@@ -3,11 +3,7 @@ import Image from "next/image";
 import { SearchIcon, ShoppingCartIcon } from "@heroicons/react/solid";
 import { signIn, signOut, useSession } from "next-auth/client";
 import { useRouter } from "next/router";
-import {
-	addProducts,
-	selectItems,
-	selectProducts,
-} from "../slices/basketSlice";
+import { addProducts, selectItems, selectProducts } from "./slices/basketSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 const TopHeader = () => {

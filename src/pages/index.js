@@ -1,6 +1,6 @@
-import Headerr from "./Headerr";
-import Banner from "./Banner";
-import ProductFeed from "./ProductFeed";
+import Headerr from "../Headerr";
+import Banner from "../Banner";
+import ProductFeed from "../ProductFeed";
 import { addProducts, selectProducts } from "../slices/basketSlice";
 import { useDispatch, useSelector } from "react-redux";
 export default function Home({ products }) {

@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import Headerr from "./Headerr";
+import Headerr from "../Headerr";
 const cancel = () => {
 	const router = useRouter();
 	return (

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { StarIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import Currency from "react-currency-formatter";
-import { addToBasket } from "../slices/basketSlice";
+import { addToBasket } from "./slices/basketSlice";
 import { useDispatch } from "react-redux";
 const Product = ({
 	product: { title, id, category, price, image, description },
