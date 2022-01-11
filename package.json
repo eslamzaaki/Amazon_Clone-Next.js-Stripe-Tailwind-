@@ -1,48 +1,48 @@
 {
-  "name": "with-redux-toolkit",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@heroicons/react": "*",
-    "@reduxjs/toolkit": "^1.7.1",
-    "@stripe/react-stripe-js": "*",
-    "@stripe/stripe-js": "*",
-    "@tailwindcss/line-clamp": "^0.3.0",
-    "axios": "^0.24.0",
-    "firebase": "^9.6.2",
-    "firebase-admin": "^10.0.1",
-    "micro": "^9.3.4",
-    "moment": "^2.29.1",
-    "next": "^12.0.7",
-    "next-auth": "^4.1.0",
-    "react": "^17.0.2",
-    "react-currency-formatter": "^1.1.0",
-    "react-dom": "^17.0.2",
-    "react-minimal-side-navigation": "^1.9.2",
-    "react-redux": "^7.2.6",
-    "react-responsive-carousel": "^3.2.22",
-    "stripe": "^8.195.0"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.12"
-  },
-  "description": "Run commands",
-  "main": "next.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-.git"
-  },
-  "keywords": [],
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-/issues"
-  },
-  "homepage": "https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-#readme"
+	"name": "with-redux-toolkit",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@heroicons/react": "*",
+		"@reduxjs/toolkit": "^1.7.1",
+		"@stripe/react-stripe-js": "*",
+		"@stripe/stripe-js": "*",
+		"@tailwindcss/line-clamp": "^0.3.0",
+		"axios": "^0.24.0",
+		"firebase": "^9.4.0",
+		"firebase-admin": "^10.0.1",
+		"micro": "^9.3.4",
+		"moment": "^2.29.1",
+		"next": "^12.0.7",
+		"next-auth": "^4.1.0",
+		"react": "^17.0.2",
+		"react-currency-formatter": "^1.1.0",
+		"react-dom": "^17.0.2",
+		"react-minimal-side-navigation": "^1.9.2",
+		"react-redux": "^7.2.6",
+		"react-responsive-carousel": "^3.2.22",
+		"stripe": "^8.195.0"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"autoprefixer": "^10.4.2",
+		"postcss": "^8.4.5",
+		"tailwindcss": "^3.0.12"
+	},
+	"description": "Run commands",
+	"main": "next.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-.git"
+	},
+	"keywords": [],
+	"author": "",
+	"bugs": {
+		"url": "https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-/issues"
+	},
+	"homepage": "https://github.com/eslamzaaki/Amazon_Clone-Next.js-Stripe-Tailwind-#readme"
 }
