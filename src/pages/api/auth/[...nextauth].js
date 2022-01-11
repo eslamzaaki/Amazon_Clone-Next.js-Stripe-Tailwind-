@@ -11,4 +11,10 @@ export default NextAuth({
 		// ...add more providers here
 	],
 	secret: process.env.SECRETT,
+	session: {
+		strategy: "jwt",
+	},
+	theme: {
+		colorScheme: "dark",
+	},
 });
