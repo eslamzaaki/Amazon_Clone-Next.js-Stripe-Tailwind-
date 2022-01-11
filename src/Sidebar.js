@@ -3,11 +3,11 @@ import { useState } from "react";
 import { Navigation } from "react-minimal-side-navigation";
 import { HomeIcon, UserIcon, MenuIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
-import { useSession, signIn, signOut } from "next-auth/client";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 const Sidebar = () => {
 	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-	const [session] = useSession();
+	const { data: session } = useSession();
 	const router = useRouter();
 
 	return (

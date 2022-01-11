@@ -4,14 +4,14 @@ import CheckOutItem from "../CheckOutItem";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { selectItems, selectTotal } from "../slices/basketSlice";
-import { useSession } from "next-auth/client";
+import { useSession } from "next-auth/react";
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
 
 const checkOut = () => {
 	const items = useSelector(selectItems);
 	const total = useSelector(selectTotal);
-	const [session] = useSession();
+	const { data: session } = useSession();
 	const stripePromise = loadStripe(process.env.stripe_public_key);
 	const createCheckOutSession = async () => {
 		const stripe = await stripePromise;

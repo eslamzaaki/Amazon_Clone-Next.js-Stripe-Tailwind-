@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { SearchIcon, ShoppingCartIcon } from "@heroicons/react/solid";
-import { signIn, signOut, useSession } from "next-auth/client";
+import { signIn, signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { addProducts, selectItems, selectProducts } from "./slices/basketSlice";
 import { useDispatch, useSelector } from "react-redux";
@@ -10,7 +10,7 @@ const TopHeader = () => {
 	const [searchWord, setSearchWord] = useState("");
 	const [searchOrder, setSearchOrder] = useState(true);
 	const router = useRouter();
-	const [session] = useSession();
+	const { data: session } = useSession();
 	const items = useSelector(selectItems);
 	const products = useSelector(selectProducts);
 	const dispatch = useDispatch();

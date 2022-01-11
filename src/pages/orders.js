@@ -1,13 +1,13 @@
-import { useSession } from "next-auth/client";
+import { useSession } from "next-auth/react";
 import React from "react";
 import Headerr from "../Headerr";
 import Order from "../Order";
-import { getSession } from "next-auth/client";
+import { getSession } from "next-auth/react";
 import { db } from "../app/firebase";
 import moment from "moment";
 const Orders = ({ orders }) => {
 	console.log(orders);
-	const [session] = useSession();
+	const { data: session } = useSession();
 	return (
 		<div>
 			<Headerr></Headerr>
