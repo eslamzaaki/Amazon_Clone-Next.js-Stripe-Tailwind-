@@ -6,7 +6,6 @@ import { getSession } from "next-auth/react";
 import { db } from "../app/firebase";
 import moment from "moment";
 const Orders = ({ orders }) => {
-	console.log(orders);
 	const { data: session } = useSession();
 	return (
 		<div>
