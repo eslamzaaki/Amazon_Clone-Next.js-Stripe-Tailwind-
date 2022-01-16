@@ -1,5 +1,6 @@
 import { buffer } from "micro";
 import * as admin from "firebase-admin";
+import Stripe from "stripe";
 
 //secure connection to firebase from backend
 const serviceAccount = require("../../../permissions.json");
@@ -10,7 +11,9 @@ const app = !admin.apps.length
 	: admin.app();
 
 //establish connection to stripe
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+	apiVersion: "2020-08-27",
+});
 const endpointSecret = process.env.STRIPE_SIGNING_SECRET;
 const fullfillOrder = async (session) => {
 	return app
